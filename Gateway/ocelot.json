@@ -18,7 +18,7 @@
       ]
     },
     {
-      "DownstreamPathTemplate": "/api/weather",
+      "DownstreamPathTemplate": "/api/weatherforecast",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -26,7 +26,7 @@
           "Port": 7002
         }
       ],
-      "UpstreamPathTemplate": "/api/weather",
+      "UpstreamPathTemplate": "/api/weatherforecast",
       "UpstreamHttpMethod": [
         "POST",
         "PUT",
