@@ -14,31 +14,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d7af05b-b00b-4433-af99-180dc20462aa" name="Changes" comment="Add RestrictAccessMiddleware and update workspace configuration">
-      <change afterPath="$PROJECT_DIR$/Authentication/Contollers/AccountController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Authentication/Dtos/LoginRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Authentication/Dtos/RegisterRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ApiGatewayDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ApiGatewayDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGatewayDemo.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGatewayDemo.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/obj/Debug/net9.0/Gateway.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/obj/Debug/net9.0/Gateway.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/obj/Debug/net9.0/Gateway.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/obj/Debug/net9.0/Gateway.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/ocelot.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/ocelot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/Identity.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/Identity.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/Identity.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/Identity.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Identity/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/bin/Debug/net9.0/Weather.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/bin/Debug/net9.0/Weather.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/bin/Debug/net9.0/Weather.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/bin/Debug/net9.0/Weather.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/ref/Weather.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/ref/Weather.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/refint/Weather.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/refint/Weather.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/rider.project.restore.info" afterDir="false" />
-    </list>
+    <list default="true" id="5d7af05b-b00b-4433-af99-180dc20462aa" name="Changes" comment="Add AccountController for user authentication and registration using JWT token thru' API gateway" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,7 +198,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750923934859</updated>
-      <workItem from="1750923936030" duration="14071000" />
+      <workItem from="1750923936030" duration="14418000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project structure and configuration for Weather, Identity, and Gateway services">
       <option name="closed" value="true" />
@@ -272,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750929923419</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add AccountController for user authentication and registration using JWT token thru' API gateway">
+      <option name="closed" value="true" />
+      <created>1750940013554</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750940013554</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +272,7 @@
     <MESSAGE value="Add SharedLibrary project and integrate with Identity and Weather services to prevent direct access to these services and allow access only thru' API gateway" />
     <MESSAGE value="Add RestrictAccessMiddleware to enforce referrer validation" />
     <MESSAGE value="Add RestrictAccessMiddleware and update workspace configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add RestrictAccessMiddleware and update workspace configuration" />
+    <MESSAGE value="Add AccountController for user authentication and registration using JWT token thru' API gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add AccountController for user authentication and registration using JWT token thru' API gateway" />
   </component>
 </project>
