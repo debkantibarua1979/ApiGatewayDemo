@@ -23,6 +23,9 @@ var app = builder.Build();
 
 app.UseCors();
 app.UseHttpsRedirection();
+
+app.UseMiddleware<TokenCheckerMiddleware>();
+// Use the InterceptionMiddleware to handle requests before they reach Ocelot
 app.UseMiddleware<InterceptionMiddleware>();
 app.UseAuthorization();
 await app.UseOcelot();              
