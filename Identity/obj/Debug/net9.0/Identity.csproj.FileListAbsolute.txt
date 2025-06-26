@@ -71,3 +71,5 @@
 /Users/dev-565790/Projects/ApiGatewayDemo/Identity/obj/Debug/net9.0/Identity.pdb
 /Users/dev-565790/Projects/ApiGatewayDemo/Identity/obj/Debug/net9.0/Identity.genruntimeconfig.cache
 /Users/dev-565790/Projects/ApiGatewayDemo/Identity/obj/Debug/net9.0/ref/Identity.dll
+/Users/dev-565790/Projects/ApiGatewayDemo/Identity/bin/Debug/net9.0/SharedLibrary.dll
+/Users/dev-565790/Projects/ApiGatewayDemo/Identity/bin/Debug/net9.0/SharedLibrary.pdb

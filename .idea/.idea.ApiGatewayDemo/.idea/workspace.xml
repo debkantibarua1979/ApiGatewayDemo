@@ -12,31 +12,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d7af05b-b00b-4433-af99-180dc20462aa" name="Changes" comment="Add initial project structure and configuration for Weather, Identity, and Gateway services">
+    <list default="true" id="5d7af05b-b00b-4433-af99-180dc20462aa" name="Changes" comment="Update assembly informational version and modify Ocelot routing paths">
+      <change afterPath="$PROJECT_DIR$/Gateway/Middlewares/InterceptionMiddleware.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SharedLibrary/SharedLibrary.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ApiGatewayDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ApiGatewayDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGatewayDemo.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGatewayDemo.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gateway/obj/Debug/net9.0/Gateway.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/obj/Debug/net9.0/Gateway.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gateway/obj/Debug/net9.0/Gateway.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/obj/Debug/net9.0/Gateway.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway/ocelot.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/ocelot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Identity/bin/Debug/net9.0/Identity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/bin/Debug/net9.0/Identity.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Identity/bin/Debug/net9.0/Identity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/bin/Debug/net9.0/Identity.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identity/Identity.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/Identity.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/Identity.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/Identity.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/Identity.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/Identity.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/Identity.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/Identity.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/Identity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/Identity.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/Identity.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/Identity.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/Identity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/Identity.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/ref/Identity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/ref/Identity.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/refint/Identity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/refint/Identity.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/bin/Debug/net9.0/Weather.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/bin/Debug/net9.0/Weather.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/bin/Debug/net9.0/Weather.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/bin/Debug/net9.0/Weather.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/Identity.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/obj/Debug/net9.0/Identity.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identity/obj/Identity.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/obj/Identity.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identity/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identity/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identity/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identity/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Identity/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather/Weather.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/Weather.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/ref/Weather.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/ref/Weather.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/refint/Weather.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/refint/Weather.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/Debug/net9.0/Weather.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather/obj/Weather.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/Weather.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Weather/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +61,9 @@
     "accountId": "dc2d2fc3-28b8-4220-9413-86bd1c4f9c92"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/dev-565790/Projects/ApiGatewayDemo/Gateway/obj/Debug/net9.0/Gateway.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
@@ -184,7 +190,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750923934859</updated>
-      <workItem from="1750923936030" duration="1503000" />
+      <workItem from="1750923936030" duration="4361000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project structure and configuration for Weather, Identity, and Gateway services">
       <option name="closed" value="true" />
@@ -194,7 +200,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750924091778</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".gitignore added">
+      <option name="closed" value="true" />
+      <created>1750926215824</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750926215824</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update assembly informational version and modify Ocelot routing paths">
+      <option name="closed" value="true" />
+      <created>1750926250407</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750926250407</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +227,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add initial project structure and configuration for Weather, Identity, and Gateway services" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add initial project structure and configuration for Weather, Identity, and Gateway services" />
+    <MESSAGE value=".gitignore added" />
+    <MESSAGE value="Update assembly informational version and modify Ocelot routing paths" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update assembly informational version and modify Ocelot routing paths" />
   </component>
 </project>

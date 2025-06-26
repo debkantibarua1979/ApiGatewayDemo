@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity", "Identity\Identi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Gateway\Gateway.csproj", "{E81A9524-CD41-4684-B166-E65F99551294}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{BACD4320-8B99-47F6-A2D0-187790B0B391}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{E81A9524-CD41-4684-B166-E65F99551294}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E81A9524-CD41-4684-B166-E65F99551294}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E81A9524-CD41-4684-B166-E65F99551294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BACD4320-8B99-47F6-A2D0-187790B0B391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BACD4320-8B99-47F6-A2D0-187790B0B391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BACD4320-8B99-47F6-A2D0-187790B0B391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BACD4320-8B99-47F6-A2D0-187790B0B391}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,3 +1,5 @@
+using SharedLibrary;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -15,7 +17,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// Add this to map controller routes
+app.UseAuthorization();
+app.UseMiddleware<RestrictAccessMiddleware>();
 app.MapControllers();
 
 app.Run();
